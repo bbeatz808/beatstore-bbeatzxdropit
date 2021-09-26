@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+  }
+
+  body {
+    font-family: "Roboto", sans-serif;
+  }
+
+  /* Nav Bar */
+
+  .nav-container {
+    background: #2D2F2F;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+    height: 72px;
+  }
+
+  .wrapper {
+      width: 1200px;
+      margin: 0 auto;
+  }
+
+  nav{
+      display:flex;
+      align-items: center;
+      justify-content:space-between;
+      height: 72px;
+  }
+
+  nav ul{
+      display:flex;
+  }
+
+  nav .logo {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    color: #FFFFFF;
+  }
+
+li {
+    list-style: none;
+    margin-right: 100px;
+    margin: 24px;
+  }
+
+  .nav-items li:nth-last-of-type(1) {
+    margin: 24px;
+  }
+
+  .nav-items li a {
+    color: #FFFFFF;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: Roboto;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+
+  .nav-items li a:hover {
+        color:#FFA500;
+        padding-right: 10px;
+  }
+
+  /* Header */
+
+.header-container {
+    background: #FFA500;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    height: calc(100vh - 72px);
+    display: flex;
+    align-items: center;
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  header h1 {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 62px;
+    text-align: center;
+
+    color: #000000;
+    margin-bottom: 24px;
+  }
+  
+  header p {
+    color: rgba(255, 255, 255, 0.8);
+    width: 550px;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+  
+    margin-bottom: 48px;
+  }
+
+  
+  /* .social-icons a:nth-of-type(1) {
+    margin-left: 0;
+  } */
+
+  /* Hero image */
+
+header .hero-image {
+    position: relative;
+  }
+  
+  header .hero-image img {
+    /* transition: 300ms;
+    position: relative; */
+    width: 496px;
+    height: 476px;
+    left: 765px;
+    top: 236px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: 100;
+  }
+  
+  /* header .hero-image img:hover {
+    transform: rotate(-15deg);
+  } */
+  
+  /* header .hero-image .photo-bg {
+    position: relative;
+    width: 522px;
+    height: 512px;
+    left: 752px;
+    top: 218px;
+
+    background: rgba(255, 255, 255, 0.28);
+    transform: rotate(-6deg);
+  } */
+
+  .nav-btn-container {
+    display: flex;
+    position: relative;
+  }
+  
+  .nav-btn-container img {
+    position: absolute;
+    margin: 12px 15px 12px 15px;
+  }
+
+  /* .nav-btn-container .user-btn {
+    pointer-events: auto;
+    transition: 300ms;
+  }
+
+  .nav-btn-container.active .user-btn {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-8px);
+  } */
+
+  /* .footer-container {
+    background: #FFA500;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    width: 1440px;
+    height: 160px;
+    left: 0px;
+    top: 864px;
+
+  }
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1440px;
+    height: 160px;
+    left: 0px;
+    top: 864px;
+  }
+
+  footer .nav-items li {
+    list-style: none;
+    margin-left: 100px;
+    margin: 24px;
+  }
+
+  .footer-container .social-icons {
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+  }
+  
+  .social-icons a {
+    position: absolute;
+    
+  } */
+  footer{
+    background-color: #2D2F2F;
+    padding: 10px;
+  }
+  .footer-container{
+    max-width: 1440px;
+    margin:auto;
+    line-height:1.5; 
+  }
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+  .footer-col{
+    width: 20%;
+    padding: 0 10px;
+  }
+
+  .footer-col h4{
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    font-weight:500;
+    position: relative;
+    color: #ffffff;
+  }
+
+
+  
+
+  
+.footer-col .social-links a{
+  display:inline-block;
+  height:40px;
+  width:40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  text-align: center;
+  line-height:40px;
+  border-radius:50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+   } 
+
+   .footer-col .social-links a:hover{
+     color: #24262b;
+     background-color: #ffffff;
+   }
+
+  
+
+ 
